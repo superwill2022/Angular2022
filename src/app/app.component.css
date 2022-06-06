@@ -1,0 +1,7 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr); /* se puede cabiar a dos columans*/
+    gap: 1rem;
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+}

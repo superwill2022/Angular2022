@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    background-color: rgb(228, 177, 177);
+    border-bottom: solid 2px #000;
+
+}
+.menu{
+    margin: 0; /* agranda el borde superior y el inferiro del objeto externo*/
+    padding: 0; /* agranda el borde superior y el inferior*/
+    display: flex; /*para qu se quite el el listado*/
+    list-style: none; /*desaparece el punto del la lista */
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+   
+}
+.logo{
+    height: 2rem;
+}
+.menu li{
+    font-weight: 100;
+    padding: 5px;
+    text-align: center;
+}
